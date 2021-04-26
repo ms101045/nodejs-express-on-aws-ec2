@@ -7,9 +7,9 @@ nvm install node
 
 # Create our working directory if it does not exists
 DIR="home/ec2-user/express-app"
-if [ -d "$DIR"]; then
+if [ -d "$DIR" ]; then
   echo "$DIR exists"
 else
 echo "Creating $DIR directory"
-mkdir $DIR
+mkdir ${DIR}
 fi
